@@ -1,0 +1,76 @@
+/* Place General, Page, Header, and Nave here if applicable */
+
+/* Main is going to be replaced by the common css */
+
+.main {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  border: 1px solid black;
+  width: 69%;
+	float: left;
+}
+
+.linktext {
+  text-decoration: none;
+  color: black; /* Change to the standard text color for the site */
+}
+
+.linktext:hover {
+  color: red;
+}
+
+.sidebar {
+  height: 500px;
+  background-color: blue;
+  background-image: url("../images/island_image.jpg");
+  overflow:hidden;
+  border: 1px solid black;
+  width: 29%;
+  max-width: 520px;
+  float: left;
+  text-align: center;
+}
+
+.quotebox_spacer {
+  height: 150px;
+}
+
+.quote {
+  opacity: 1.0;
+  padding-top: 40%;
+  padding-left:10px;
+  padding-right: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.attribution {
+  opacity: 1.0;
+  padding-bottom: 40%;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  font-style: italic;
+  text-align: right;
+}
+
+.quotebox {
+  width: 70%;
+  height: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  background-color: white;
+  opacity: 0.4;
+}
+
