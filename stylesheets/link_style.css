@@ -1,76 +1,36 @@
-/* Place General, Page, Header, and Nave here if applicable */
-
-/* Main is going to be replaced by the common css */
-
-.main {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
+/* For general styles see stylesheets/style.css */
 
 .clear {
   clear: both;
 }
 
-.container {
-  border: 1px solid black;
-  width: 69%;
-	float: left;
+.linkbox {
+  margin: 10%;
 }
 
 .linktext {
+  color: white; /* Make sure this corresponds to default article color: if it doesn't it will default to anchor defaults*/
   text-decoration: none;
-  color: black; /* Change to the standard text color for the site */
 }
 
 .linktext:hover {
   color: red;
 }
 
-.sidebar {
-  height: 500px;
-  background-color: blue;
-  background-image: url("../images/island_image.jpg");
-  overflow:hidden;
-  border: 1px solid black;
-  width: 29%;
-  max-width: 520px;
-  float: left;
+.quotebox {
+  margin-top: 50%;
+  margin-bottom: 50%;
+}
+
+.quotation {
+  padding: 20px;
   text-align: center;
-}
-
-.quotebox_spacer {
-  height: 150px;
-}
-
-.quote {
-  opacity: 1.0;
-  padding-top: 40%;
-  padding-left:10px;
-  padding-right: 10px;
-  text-decoration: none;
   font-weight: bold;
+  font-size: 1.5em;
 }
 
 .attribution {
-  opacity: 1.0;
-  padding-bottom: 40%;
-  padding-left: 10px;
-  padding-right: 10px;
-  text-decoration: none;
+  text-align: center;
   font-style: italic;
-  text-align: right;
+  padding: 20px;
 }
-
-.quotebox {
-  width: 70%;
-  height: 50%;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
-  background-color: white;
-  opacity: 0.4;
-}
-
