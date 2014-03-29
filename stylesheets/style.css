@@ -1,79 +1,42 @@
-
-
 .container {
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 200px;
-	margin-bottom:200px;
-	background-color: green;
 	width: 1000px;
-	height:1200px;
+	height: 1200px;
+  	margin: 200 auto 200 auto;
 }
 
-
-.button {
-	background-color: red;
-	padding:100px;
+.information {
+	padding: 20px;
 	float: left;
-}
-
-.logo {
-	background-color: blue;
-	padding:100px 218px 100px 218px;
-	float: left;
-}
-
-.social {
-	background-color: yellow;
-	padding:100px;
-	float: left;
-}
-
-nav {
-	background-color: orange;
-	margin-left: auto;
-	margin-right: auto;
-	width:1000px;
-	padding:10px 0px 40px 0px;
-	clear:both;
-}
-
-.nav_bar {
-	margin-left:auto;
-	margin-right:auto;
-	margin-bottom:10%;
-	width:900px;
-} 
-
-.page_link {
-	background-color: purple;
-	padding:50px;
-	margin:0px 35px 20px 35px;
-	float:left;
-}
-
-section {
-	width:700px;
-	height:900px;
-	background-color:black;
-	float:left;
-}
-
-article {
-	color:white;
-	margin:300px;
+	margin: 0px auto;
 }
 
 .sidebar {
 	width:300px;
 	height:900px;
-	background-color:coral;
-	float:left;
+	float:right;
 }
 
-.photo {
+.sidebar img {
 	width:300px;
 	height:300px;
-	background-color:darkcyan;
+
 }
 
+.quote {
+
+	background-color: blue;
+}
+
+.map {
+	float: left;
+
+}
+
+.gmap {
+	width:400px;
+	height:400px;
+}
+
+.input {
+	float:left;
+}
