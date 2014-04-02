@@ -168,6 +168,12 @@ nav {
 	float:left;
 }
 
+/* Here's a suggestion for the buttons on the nav bar */
+
+td {
+	
+}
+
 td:hover {
 	background-color:#5E7A67;
 }
