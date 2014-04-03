@@ -89,3 +89,9 @@ script {
   margin-top: 10%;
   overflow: hidden;
 }
+
+.thanks {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
