@@ -153,29 +153,33 @@ body {
 nav {
 	background-color:#779C83;
 	width:1000px;
-	clear:both;
 }
 
 .nav_bar {
 	margin-left:auto;
 	margin-right:auto;
 	width:850px;
+	border-spacing: none;
 } 
 
 .page_link {
 	background-color:#779C83;
-	padding:20px 80px 20px 80px;
+	/* padding:20px 80px 20px 80px; */
+	width: 25%;
 	float:left;
+	height: 60px;
 }
 
-/* Here's a suggestion for the buttons on the nav bar */
-
-td {
-	
-}
-
-td:hover {
+.page_link:hover {
 	background-color:#5E7A67;
+}
+
+.page_link a {
+	text-decoration: none;
+}
+
+.clear {
+	clear:both;
 }
 
 section {
