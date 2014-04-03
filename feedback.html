@@ -69,7 +69,11 @@
         </div>
         <hr>
       
-          <form action="https://docs.google.com/forms/d/1MeWJDRie7X0-effNr8AzXS8nPtpisuBfy_hxUjCL-AY/formResponse" method="get">
+          <!--<form action="https://docs.google.com/forms/d/1MeWJDRie7X0-effNr8AzXS8nPtpisuBfy_hxUjCL-AY/formResponse" method="post">-->
+
+          <script type="text/javascript">var submitted=false;</script>
+          <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='http://www.google.com';}"></iframe>
+          <form action="https://docs.google.com/forms/d/1MeWJDRie7X0-effNr8AzXS8nPtpisuBfy_hxUjCL-AY/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
 
             <div class="survey_question">
               <label for="entry.1539753033">Did you have a positive experience at our spa?</label>
@@ -111,8 +115,8 @@
             </div>
 
         </form>
-
-        <p class="instruction">Please note, pressing the submit button will take you to our Google Form Submission Confirmation page.  Use your browser's Back Button to return to our site!</p>
+        
+        <!--<p class="instruction">Please note, pressing the submit button will take you to our Google Form Submission Confirmation page.  Use your browser's Back Button to return to our site!</p>-->
 
       </div>
       
