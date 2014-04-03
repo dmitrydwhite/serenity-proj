@@ -167,15 +167,19 @@ nav {
 	/* padding:20px 80px 20px 80px; */
 	width: 25%;
 	float:left;
+	text-align: center;
+	vertical-align: middle;
 	height: 60px;
+	line-height: 60px;
 }
 
 .page_link:hover {
 	background-color:#5E7A67;
 }
 
-.page_link a {
+.nav_bar a {
 	text-decoration: none;
+	color: black;
 }
 
 .clear {
