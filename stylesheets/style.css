@@ -1,0 +1,115 @@
+
+body {
+	background-image:url('http://hdslrshooter.com/wp-content/uploads/2011/02/background-7.png');
+	background-color:#cccccc;
+}
+
+
+/*add audio player to right side*/
+audio {
+  float: right;
+
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	margin-bottom:200px;
+	background-color: white;
+	width: 1000px;
+	height:1200px;
+}
+
+.button {
+	background-color: white;
+	padding:100px;
+	float: left;
+}
+
+
+.logo {
+	background-color: blue;
+	width:500px;
+	height:220px;
+	float: left;
+}
+
+.social {
+	background-color: white;
+	float: left;
+}
+
+.twitter {
+	margin:150px 50px 0px 20px;
+}
+
+nav {
+	background-color:#779C83;
+	width:1000px;
+	clear:both;
+}
+
+.nav_bar {
+	margin-left:auto;
+	margin-right:auto;
+	width:850px;
+} 
+
+.page_link {
+	background-color:#779C83;
+	padding:20px 80px 20px 80px;
+	float:left;
+}
+
+td:hover {
+	background-color:#5E7A67;
+}
+
+/*CASI: original settings w 700  h 900*/
+
+section {
+	width:700px;
+	height:880px;
+	background-color:black;
+	float:left;
+}
+
+/*CASI: original settings margin 300px*/
+
+article {
+	color:white;
+	margin:0px;
+	
+}
+
+/*CASI: original settings w 300 h 900 float left*/
+
+.sidebar {
+	width:295px;
+	height:675px;
+	background-color:coral;
+	float:left;
+}
+
+/*CASI: w 300px h 300px*/
+
+.photo {
+	width:295px;
+	height:77px;
+	background-color:darkcyan;
+}
+
+
+/*CASI:  added this*/
+
+img {
+ max-width:102%; 
+ height: 60%;
+}
+
+
+
+
+
+
