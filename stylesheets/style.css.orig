@@ -124,6 +124,10 @@ nav {
 	color:#FFFFFB;
 }
 
+td {
+	
+}
+
 td:hover {
 	background-color:#5E7A67;
 }
@@ -191,6 +195,18 @@ article div {
 	margin-top:10px;
 }
 
+<<<<<<< HEAD
+.map {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.map object {
+	margin-right: auto;
+	margin-left: auto;
+}
+=======
 #florish2 img{
 	width:999px;
 	margin:auto;
@@ -215,3 +231,4 @@ section hr {
 	width:500px;
 	margin-top:40px;
 }
+>>>>>>> 9c5ce2f82a767af470a1f4cf8ecc3c9736a6724b

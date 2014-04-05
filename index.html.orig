@@ -6,15 +6,23 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
+<<<<<<< HEAD
+  <title>Generic Massage</title>
+=======
  <title>Serenity Massage</title>
+>>>>>>> 9c5ce2f82a767af470a1f4cf8ecc3c9736a6724b
 
- <link rel="stylesheet" type="text/css" href="stylesheets/style.css"/>
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css"/>
 
 <link href='http://fonts.googleapis.com/css?family=Radley' rel='stylesheet' type='text/css'>
 
 <link rel="icon" type="image/png" href="images/icon.jpg">
 
+<<<<<<< HEAD
+<body background="images/background.jpg">
+=======
 </head>
+>>>>>>> 9c5ce2f82a767af470a1f4cf8ecc3c9736a6724b
 
 <body background="images/background.jpg">
 	<div id="florish">
