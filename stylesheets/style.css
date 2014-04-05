@@ -1,20 +1,3 @@
-
-body {
-	background-image:url('http://hdslrshooter.com/wp-content/uploads/2011/02/background-7.png');
-	background-color:#cccccc;
-}
-
-body {
-	background-image:url('http://hdslrshooter.com/wp-content/uploads/2011/02/background-7.png');
-	background-color:#cccccc;
-}
-
-body {
-	background-image:url('http://hdslrshooter.com/wp-content/uploads/2011/02/background-7.png');
-	background-color:#cccccc;
-}
-
-
 .container {
 	margin-left: auto;
 	margin-right: auto;
@@ -25,19 +8,26 @@ body {
 	height:1200px;
 }
 
-.button {
-	background-color: white;
-	padding:80px 55px 70px 55px;
-	float: left;
+
+body {
+	background-color:black;
+	font-family:"Radley";
+
 }
 
-input {
+.button {
+	background-color: white;
+	margin:40px 35px 0px 30px;
+	padding:0px 25px 0px 20px;
+	float: left;
+	border-right:1px solid black;
+}
+
+.button input {
 	background-color:#176341;
-    border-radius: 5px;
-    border-radius: 5px;
-    border-radius:6px;
+    border-radius: 10px;
     color: #fff;
-    font-family: 'Oswald';
+  	font-family:"Gudea";
     font-size: 20px;
     text-decoration: none;
     cursor: pointer;
@@ -46,89 +36,151 @@ input {
     width:7em;
 }
 
+.bold {
+	font-weight:700;
+}
+
+.button p {
+	font-size:.9em;
+	text-align: left;
+	line-height:2px;
+}
+
+
 .logo {
 	background-color: blue;
 	width:500px;
-	height:220px;
 	float: left;
 }
 
 .social {
-
 	width: 180px;
+	height:120px;
 	float:left;
-	margin: 70px 30px 0px 30px;
-	border:2px black solid;
-	border-radius: 5px;
-    border-radius: 5px;
-	height:100px;
-
+	margin:40px 10px 10px 10px; 
+	padding:0px 10px 5px 15px;
+	border-left:1px black solid;
 }
 
 .social p {
-	clear:both;
-	margin:6px 0 0 40px;
+	clear:both;	
+	margin:20px 0 0 40px;
 	font-size:1.5em;
 	text-align:auto;
 }
 
 .twitter {
-	margin:15px 0px 0px 30px;
+	margin:8px 0px 0px 30px;
+	padding:7px 3px 3px 3px;
 	float:left;
 	display:inline;
+	border-radius:5px;
+	border:2px solid black;
 }
 
 .facebook {
 	float:left;
-	margin:9px 0px 0px 30px;
+	margin:9px 0px 0px 20px;
+}
+
+.facebook img {
+	height:53px;
+	width:53px;
 }
 
 nav {
 	background-color:#779C83;
 	width:1000px;
 	clear:both;
+	margin-bottom: 20px;
 	box-shadow: 0px 10px 10px #082417;
 }
 
 .nav_bar {
-	margin-left:auto;
-	margin-right:auto;
-	width:850px;
+	margin:auto;
+	width:0px;
 } 
+
+#first {
+	border-left:1px solid white
+}
 
 .page_link {
 	background-color:#779C83;
-	padding:20px 80px 20px 80px;
+	padding:20px 60px 20px 60px;
 	float:left;
+	border-right:1px solid white;
+}
+
+.page_link a {
+	text-decoration:none;
+	color:white;
 }
 
 td:hover {
 	background-color:#5E7A67;
 }
 
+td {
+	font-weight:700;
+	font-size:1.3em;
+}
+
 section {
-	width:700px;
+	width:650px;
 	height:900px;
-	
 	float:left;
 }
 
 article {
-	color:white;
-	margin:300px;
+	margin:0px 0px 20px 25px;
 }
+
+.title {
+	font-size:1.5em;
+	color:#1F5F91;
+	font-weight: 800;
+}
+
 
 .sidebar {
 	width:300px;
-	height:900px;
-	background-color:black;
-	margin-top:20px;
+	height:870px;
+	background-color:#051F36;
+	padding:10px;
+	margin:20px 5px 10px 15px;
 	float:left;
+	border-radius: 10px;
 }
 
-.photo {
-	width:300px;
-	height:280px;
-	background-color:darkcyan;
+hr {
+	width:250px;
+	margin-bottom:20px;
+}
+
+.photo img {
+	width:280px;
+	height:350px;
+	padding:10px;
+	border-radius:20px;
+}
+
+.main_photo img {
+	width:620px;
+	height:300px;
+	margin:20px 10px 0px 20px;
+	border:2px #06626E solid;
+	border-radius:15px;
+}
+
+.quote p {
+	color:white;
+	padding:5px;
+	font-size:3em;
+	text-align:center;
+}
+
+article div {
+	margin-top:10px;
 }
 
