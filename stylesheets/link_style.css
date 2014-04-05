@@ -9,12 +9,14 @@
 }
 
 .linktext {
-  color: white; /* Make sure this corresponds to default article color: if it doesn't it will default to anchor defaults*/
+  font-size:1.5em;
+  color:#1F5F91;
+  font-weight: 800; 
   text-decoration: none;
 }
 
 .linktext:hover {
-  color: red;
+  color: black;
 }
 
 .survey {
