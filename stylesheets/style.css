@@ -1,122 +1,3 @@
-Skip to content
- 
-This repository
-Explore
-Gist
-Blog
-Help
-dmitrydwhite dmitrydwhite
- 
-4  Unwatch
-Star 0 Fork 0PUBLIC mattwilliams85 / serenity-proj
- branch: homepage  serenity-proj / stylesheets / style.css 
-mattwilliams85 mattwilliams85 2 hours ago worked on nav bar and social media buttons
-1 contributor
- file  88 lines (70 sloc)  1.066 kb  Open EditRawBlameHistory Delete
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-70
-71
-72
-73
-74
-75
-76
-77
-78
-79
-80
-81
-82
-83
-84
-85
-86
-87
-
-body {
-	background-image:url('http://hdslrshooter.com/wp-content/uploads/2011/02/background-7.png');
-	background-color:#cccccc;
-}
-
-body {
-	background-image:url('http://hdslrshooter.com/wp-content/uploads/2011/02/background-7.png');
-	background-color:#cccccc;
-}
-
-body {
-	background-image:url('http://hdslrshooter.com/wp-content/uploads/2011/02/background-7.png');
-	background-color:#cccccc;
-}
-
-
 .container {
 	margin-left: auto;
 	margin-right: auto;
@@ -127,45 +8,113 @@ body {
 	height:1200px;
 }
 
+
+body {
+	background-color:black;
+	font-family:"Radley";
+
+}
+
 .button {
 	background-color: white;
-	padding:100px;
+	margin:40px 35px 0px 30px;
+	padding:0px 25px 0px 20px;
 	float: left;
+	border-right:1px solid black;
+}
+
+.button input {
+	background-color:#176341;
+    border-radius: 10px;
+    color: #fff;
+  	font-family:"Gudea";
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    height:3em;
+    width:7em;
+}
+
+.bold {
+	font-weight:700;
+}
+
+.button p {
+	font-size:.9em;
+	text-align: left;
+	line-height:2px;
 }
 
 
 .logo {
 	background-color: blue;
 	width:500px;
-	height:220px;
 	float: left;
 }
 
 .social {
-	background-color: white;
-	float: left;
+	width: 180px;
+	height:120px;
+	float:left;
+	margin:40px 10px 10px 10px; 
+	padding:0px 10px 5px 15px;
+	border-left:1px black solid;
+}
+
+.social p {
+	clear:both;	
+	margin:20px 0 0 40px;
+	font-size:1.5em;
+	text-align:auto;
 }
 
 .twitter {
-	margin:150px 50px 0px 20px;
+	margin:8px 0px 0px 30px;
+	padding:7px 3px 3px 3px;
+	float:left;
+	display:inline;
+	border-radius:5px;
+	border:2px solid black;
+}
+
+.facebook {
+	float:left;
+	margin:9px 0px 0px 20px;
+}
+
+.facebook img {
+	height:53px;
+	width:53px;
 }
 
 nav {
 	background-color:#779C83;
 	width:1000px;
 	clear:both;
+	margin-bottom: 20px;
+	box-shadow: 0px 10px 10px #082417;
 }
 
 .nav_bar {
-	margin-left:auto;
-	margin-right:auto;
-	width:850px;
+	margin:auto;
+	width:0px;
 } 
+
+#first {
+	border-left:1px solid white
+}
 
 .page_link {
 	background-color:#779C83;
-	padding:20px 80px 20px 80px;
+	padding:20px 60px 20px 60px;
 	float:left;
+	border-right:1px solid white;
+}
+
+.page_link a {
+	text-decoration:none;
+	color:white;
 }
 
 td {
@@ -176,29 +125,66 @@ td:hover {
 	background-color:#5E7A67;
 }
 
+td {
+	font-weight:700;
+	font-size:1.3em;
+}
+
 section {
-	width:700px;
+	width:650px;
 	height:900px;
-	background-color:black;
 	float:left;
 }
 
 article {
-	color:white;
-	margin:300px;
+	margin:0px 0px 20px 25px;
 }
+
+.title {
+	font-size:1.5em;
+	color:#1F5F91;
+	font-weight: 800;
+}
+
 
 .sidebar {
 	width:300px;
-	height:900px;
-	background-color:coral;
+	height:870px;
+	background-color:#051F36;
+	padding:10px;
+	margin:20px 5px 10px 15px;
 	float:left;
+	border-radius: 10px;
 }
 
-.photo {
-	width:300px;
+hr {
+	width:250px;
+	margin-bottom:20px;
+}
+
+.photo img {
+	width:280px;
+	height:350px;
+	padding:10px;
+	border-radius:20px;
+}
+
+.main_photo img {
+	width:620px;
 	height:300px;
-	background-color:darkcyan;
+	margin:20px 10px 0px 20px;
+	border:2px #06626E solid;
+	border-radius:15px;
 }
 
-Status API Training Shop Blog About © 2014 GitHub, Inc. Terms Privacy Security Contact 
+.quote p {
+	color:white;
+	padding:5px;
+	font-size:3em;
+	text-align:center;
+}
+
+article div {
+	margin-top:10px;
+}
+
