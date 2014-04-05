@@ -17,31 +17,11 @@
   color: red;
 }
 
-.quotebox {
-  margin-top: 50%;
-  margin-bottom: 50%;
-}
-
-.quotation {
-  padding: 20px;
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.5em;
-}
-
-.attribution {
-  text-align: center;
-  font-style: italic;
-  padding: 20px;
-}
-
 .survey {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  color: white;
-  font-size: 20px;
-  padding-top: 30px;
+  color: black;
 }
 
 .survey p {
@@ -51,9 +31,9 @@
 }
 
 .survey_title {
-  font-size: 24px;
-  font-weight: bold;
-  padding: 10px;
+  font-size:1.5em;
+  color:#1F5F91;
+  font-weight: 800;
   text-align: center;
 }
 
@@ -77,9 +57,9 @@ label {
   padding-left: 5px;
 }
 
-script {
-  color: white;
-}
+/* script {
+  color: black;
+} */
 
 .google_survey {
   width: 760px;
