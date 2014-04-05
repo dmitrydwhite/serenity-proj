@@ -188,3 +188,13 @@ article div {
 	margin-top:10px;
 }
 
+.map {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.map object {
+	margin-right: auto;
+	margin-left: auto;
+}
